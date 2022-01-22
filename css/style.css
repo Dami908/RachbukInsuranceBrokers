@@ -647,8 +647,8 @@ ol {
     color: #fff;
     box-shadow: 0 3ox 20px rgba(0, 0, 0, 0.1);
     border-radius: 100px;
-    background-image: -webkit-linear-gradient(left, #21d397 0%, #7450fe 51%, #21d397 100%);
-    background-image: linear-gradient(to right, #21d397 0%, #7450fe 51%, #21d397 100%);
+    background-image: -webkit-linear-gradient(left, 	#FF0000 0%, #0000ff 51%, #d32121 100%);
+    background-image: linear-gradient(to right, #FF0000 0%, #0000ff 51%, #d32121 100%);
     -webkit-transition: all 500ms;
     transition: all 500ms;
 }
@@ -814,7 +814,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 /* ##### 3.0 Wellcome Area CSS ##### */
 .hero-section{
     position: relative;
-    min-height: 780px;
+    min-height: 930px;
     background: url('../img/bg-img/header2.jpg') no-repeat bottom center;
     background-size: cover;
     display: flex;
@@ -1158,14 +1158,14 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     margin-bottom: 20px;
 }
 .special-head{
-    color: #044afa !important;
+    color: #ffffff !important;
     padding-left: 40px;
     font-size: 18px;
     position: relative;
 }
 .special-head:before{
     content: '';
-    background: #3964f9;
+    background: #ffffff;
     position: absolute;
     top: 50%;
     left: 0;
@@ -1485,7 +1485,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     margin-bottom: 20px;
 }
 .welcome-content h1 {
-    font-size: 45px;
+    font-size: 50px;
     font-weight: 500;
     margin-bottom: 20px;
 }
@@ -4937,7 +4937,7 @@ textarea:required {
     }
 }
 
-/
+
 
 .fullwidth {
     width: 100vw !important;
@@ -4964,11 +4964,12 @@ textarea:required {
 /* ##### Light Version CSS ##### */
 
 body.light-version {
-    background: #fff !important;
+    background: rgb(255, 255, 255) !important;
 }
 
 .light-version p {
-    color: #888;
+    color: rgb(35, 4, 175);
+    font-size: 20px;
 }
 
 .light-version h2,
