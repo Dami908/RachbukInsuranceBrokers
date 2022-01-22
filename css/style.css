@@ -861,12 +861,12 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     left: -1%;
 }
 .hero-section.ai1{
-    background: url('../img/bg-img/ai1.jpg') no-repeat top left;
+    background: url('../img/bg-img/ai1.png') no-repeat top left;
     background-size: cover;
     border-bottom: 1px solid rgba(4, 74, 250, .2);
 }
 .hero-section.ai2{
-    background: url('../img/bg-img/ai1.PNG') no-repeat top center;
+    background: url('../img/bg-img/ai1.png') no-repeat top center;
     background-size: cover;
 }
 
