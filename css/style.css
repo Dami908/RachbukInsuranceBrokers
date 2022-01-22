@@ -866,7 +866,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     border-bottom: 1px solid rgba(4, 74, 250, .2);
 }
 .hero-section.ai2{
-    background: url('../img/bg-img/ai1.png') no-repeat top center;
+    background: url('../img/bg-img/ai1.PNG') no-repeat top center;
     background-size: cover;
 }
 
